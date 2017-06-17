@@ -1,0 +1,65 @@
+{
+	"id": "02bfadfa-a7c4-f813-7123-fdbccad236d1",
+	"name": "Rest",
+	"description": "",
+	"order": [
+		"b804fc4a-5430-c4f6-b64d-8a4e2f405041",
+		"b45ae88e-a797-77a2-a366-dc482e3f7d42"
+	],
+	"folders": [],
+	"timestamp": 1497675757031,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "b45ae88e-a797-77a2-a366-dc482e3f7d42",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{protocol}}://{{host}}:{{port}}/quote",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497677619300,
+			"name": "Quotes",
+			"description": "",
+			"collectionId": "02bfadfa-a7c4-f813-7123-fdbccad236d1",
+			"responses": [],
+			"rawModeData": "{\n\t\"value\": 10\n}"
+		},
+		{
+			"id": "b804fc4a-5430-c4f6-b64d-8a4e2f405041",
+			"headers": "",
+			"headerData": [],
+			"url": "{{protocol}}://{{host}}:{{port}}/quote",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497677604846,
+			"name": "Quotes",
+			"description": "",
+			"collectionId": "02bfadfa-a7c4-f813-7123-fdbccad236d1",
+			"responses": []
+		}
+	]
+}

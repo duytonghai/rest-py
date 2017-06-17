@@ -1,0 +1,8 @@
+boto3>=1.4.0,<1.5
+Cython>=0.24.1,<0.25
+falcon>=1.0,<1.1
+gunicorn>=19.6.0,<19.7
+pillow==2.9.0
+requests>=2.11.1,<2.12
+requests-oauthlib>=0.6.2,<0.7
+uwsgi>=2.0.13.1,<2.1
